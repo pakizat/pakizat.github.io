@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PakeMon | SkyWorker</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, "Microsoft YaHei", sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: #e5e7eb;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card {
+      width: min(720px, 90%);
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-radius: 24px;
+      padding: 48px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+      backdrop-filter: blur(12px);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin: 0 0 12px;
+    }
+
+    .subtitle {
+      color: #93c5fd;
+      font-size: 20px;
+      margin-bottom: 24px;
+    }
+
+    p {
+      color: #cbd5e1;
+      line-height: 1.8;
+      font-size: 17px;
+    }
+
+    .links {
+      margin-top: 32px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+      padding: 12px 18px;
+      border-radius: 12px;
+      background: #2563eb;
+      font-weight: 600;
+    }
+
+    a.secondary {
+      background: #475569;
+    }
+
+    a.warning {
+      background: #7c3aed;
+    }
+
+    footer {
+      margin-top: 32px;
+      color: #94a3b8;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>PakeMon</h1>
+    <div class="subtitle">SkyWorker · Personal Homepage</div>
+
+    <p>
+      欢迎来到我的个人主页。这里用于展示我的项目、工具、服务入口和学习记录。
+    </p>
+
+    <p>
+      目前我正在搭建自己的服务器、域名、GitHub Pages 和 API 工具服务。
+    </p>
+
+    <div class="links">
+      <a href="https://github.com/pakizat" target="_blank">GitHub</a>
+      <a class="secondary" href="https://cpa.skyworker.me" target="_blank">CPA 管理</a>
+      <a class="warning" href="https://panel.skyworker.me" target="_blank">1Panel</a>
+    </div>
+
+    <footer>
+      © 2026 PakeMon · skyworker.me
+    </footer>
+  </main>
+</body>
+</html>
